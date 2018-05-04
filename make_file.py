@@ -1,7 +1,7 @@
 import csv
 import os
 import sys
-os.system("rm names.txt")
+#os.system("rm names.txt")
 os.system("ls *.fastq >> names.txt")
 with open("names.txt","r") as namefile:
 	names = namefile.readlines()
